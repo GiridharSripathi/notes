@@ -1,0 +1,84 @@
+
+
+** Everything in Python is Object **
+
+objects
+----------
+
+number
+--------
+number can be integer or decimal or octal or hexadecimal.
+
+aval =10
+bval = 43.34
+
+
+string
+-------
+string is simply sequence of characters
+string can be defined in single or doule or triple quotes.
+
+aname = 'python programming'
+bname = "scala language"
+cname = """unix shell scripting"""
+dname = '''java programming'''
+
+
+
+list ( array in C )
+------------------
+list is set of elements.
+Elements can be set of numbers or strings or any combination.
+List elements are defined in [].
+**** changes in the list are possible *****
+
+
+alist = [10,20,30,40,50]             # numbers
+blist = ["perl","unix","c","scala"]  # strings
+clist = [10,"oracle","DS",34.43]     # combination
+
+
+tuple  ( immutable or READONLY or unchangable )
+------
+tuple contains set of elements.
+Elements can be set of numbers or strings or any combination.
+tuple elements are defined in ().
+**** Elements INSIDE tuple cannot be modified *****
+
+atup = (10,20,30)
+btup = ("perl","oracle","scala")
+ctup = (10,45.4343,"java")
+
+
+
+dictionary
+--------------
+dictionary contains elements in key:values pairs
+dictionary elements are defined in {}.
+In dictionary ... keys are either NUmber or String
+                  values can be number or string or list or tuple or dictionary
+
+
+
+syntax:      object = { key:value , key:value , key:value }
+Example:       book = {"chap1":10 ,"chap2":20 ,"chap3":30 }
+               info = {1:2,3:4,5:6}
+               data = {"book1":["JKR",100,"JOhn"] ,"book2":["NY",300,"Wright"] }
+
+
+
+set
+-------
+set is UNORDERED collection of UNIQUE elements of SAME TYPE.
+
+set elements are defined in {}
+
+
+aset ={10,20,30,30,30,40}
+
+
+
+
+
+
+
